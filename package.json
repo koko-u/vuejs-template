@@ -1,0 +1,23 @@
+{
+  "name": "vuejs-template",
+  "version": "1.0.0",
+  "description": "",
+  "author": "KOZAKI Tsuneaki <kozaki.tsuneaki@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parcel": "parcel src/index.html"
+  },
+  "dependencies": {
+    "bulma": "^0.7.5",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.22.9"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  }
+}
