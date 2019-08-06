@@ -7,15 +7,18 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "parcel": "parcel src/index.html"
+    "parcel": "parcel src/index.html --port 3000"
   },
   "dependencies": {
     "bulma": "^0.7.5",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3"
   },
   "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
     "parcel-bundler": "^1.12.3",
-    "sass": "^1.22.9"
+    "sass": "^1.22.9",
+    "vue-template-compiler": "^2.6.10"
   },
   "alias": {
     "vue": "./node_modules/vue/dist/vue.common.js"
